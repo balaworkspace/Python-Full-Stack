@@ -1,0 +1,101 @@
+integer
+
+a = 10
+b = -25
+print(a, b)
+
+
+float(decimal)
+
+price = 99.75
+pi = 3.14
+print(price, pi)
+
+
+complex (real + imaginary)
+
+c = 3 + 4j
+print(c)
+
+
+str (string)
+
+
+name = "Bala"
+message = "Welcome to Python"
+print(name)
+print(message)
+
+
+list (ordered,changable)
+
+fruits = ["apple", "banana", "mango"]
+fruits[1] = "orange"
+print(fruits)
+
+tuple
+
+colors = ("red", "green", "blue")
+print(colors[0])
+
+
+Operator	Meaning	     Example
++	Addition	     5 + 2
+-	Subtraction	     5 - 2
+*	Multiplication	     5 * 2
+/	Division	     5 / 2
+%	Modulus	             5 % 2
+**	Exponent	     5 ** 2
+//	Floor Division	     5 // 2
+
+
+
+Operator	Example
+=	a = 5
++=	a += 2
+-=	a -= 2
+*=	a *= 2
+/=	a /= 2
+%=	a %= 2
+**=	a **= 2
+//=	a //= 2
+
+
+Operator	Meaning
+==	Equal
+!=	Not equal
+>	Greater than
+<	Less than
+>=	Greater or equal
+<=	Less or equal
+
+
+
+Operator	Meaning
+and	True if both are true
+or	True if any one is true
+not	Reverse the result
+
+
+
+Operator	Meaning
+&	AND
+`	`
+^	XOR
+~	NOT
+<<	Left shift
+>>	Right shift
+
+
+
+
+Operator	Meaning
+in	Value exists
+not in	Value does not exist
+
+
+
+
+Operator	Meaning
+is	Same object
+is not	Different object
