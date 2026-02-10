@@ -1,0 +1,173 @@
+Good question 👍 Pandas has **a lot** of functions, but they’re usually learned in groups. I’ll list the **most commonly used Pandas functions**, nicely organized so it’s easy to remember.
+
+---
+
+## 1️⃣ Data Loading / Input–Output Functions
+
+Used to read and write data.
+
+* `read_csv()`
+* `read_excel()`
+* `read_json()`
+* `read_sql()`
+* `read_html()`
+* `to_csv()`
+* `to_excel()`
+* `to_json()`
+* `to_sql()`
+
+---
+
+## 2️⃣ Data Inspection / Understanding Functions
+
+Used to understand the dataset.
+
+* `head()`
+* `tail()`
+* `info()`
+* `describe()`
+* `shape`
+* `columns`
+* `index`
+* `dtypes`
+* `sample()`
+
+---
+
+## 3️⃣ Selection & Indexing Functions
+
+Used to access specific rows or columns.
+
+* `loc[]`
+* `iloc[]`
+* `at[]`
+* `iat[]`
+* `filter()`
+* `xs()`
+
+---
+
+## 4️⃣ Data Cleaning Functions
+
+Used to handle missing or incorrect data.
+
+* `isnull()`
+* `notnull()`
+* `dropna()`
+* `fillna()`
+* `replace()`
+* `duplicated()`
+* `drop_duplicates()`
+
+---
+
+## 5️⃣ Data Manipulation / Transformation
+
+Used to change or transform data.
+
+* `apply()`
+* `applymap()`
+* `map()`
+* `astype()`
+* `rename()`
+* `sort_values()`
+* `sort_index()`
+* `reset_index()`
+* `set_index()`
+* `where()`
+* `mask()`
+
+---
+
+## 6️⃣ Mathematical & Statistical Functions
+
+Used for calculations and analysis.
+
+* `count()`
+* `sum()`
+* `mean()`
+* `median()`
+* `mode()`
+* `min()`
+* `max()`
+* `std()`
+* `var()`
+* `corr()`
+* `cov()`
+
+---
+
+## 7️⃣ Grouping & Aggregation Functions
+
+Used for grouped analysis.
+
+* `groupby()`
+* `agg()`
+* `transform()`
+* `pivot()`
+* `pivot_table()`
+* `crosstab()`
+
+---
+
+## 8️⃣ Merging & Joining Functions
+
+Used to combine datasets.
+
+* `merge()`
+* `join()`
+* `concat()`
+* `append()` *(deprecated but still seen)*
+
+---
+
+## 9️⃣ Time Series Functions
+
+Used for date & time data.
+
+* `to_datetime()`
+* `date_range()`
+* `resample()`
+* `shift()`
+* `rolling()`
+
+---
+
+## 🔟 String Handling Functions (`.str`)
+
+Used on text columns.
+
+* `str.lower()`
+* `str.upper()`
+* `str.strip()`
+* `str.replace()`
+* `str.contains()`
+* `str.split()`
+* `str.len()`
+
+---
+
+## 🔟➕ Utility & Miscellaneous
+
+* `copy()`
+* `equals()`
+* `memory_usage()`
+* `value_counts()`
+* `unique()`
+* `nunique()`
+
+---
+
+### ✅ Exam Tip (Very Important 📌)
+
+If this is for **college exams or interviews**, focus mainly on:
+
+* `read_csv()`
+* `head()`, `info()`, `describe()`
+* `loc`, `iloc`
+* `dropna()`, `fillna()`
+* `groupby()`
+* `merge()`
+* `apply()`
+
+
